@@ -16,7 +16,7 @@ public class PrefixSumFor2dArray {
         int c = matrix[0].length;
         // traverse horizontally to calculate row-wise prefix sum
         for( int i =0; i < r; i++){
-            for( int j = 0; j < c; j++){
+            for( int j = 1; j < c; j++){
                 matrix[i][j] += matrix[i][j-1];
             }
         }
