@@ -9,7 +9,7 @@ public class PrefixSumFor2dArray {
             }
         }
         return sum;
-    }
+    }  
 
     static void findPrefixSumMatrix(int[][] matrix){
         int r = matrix.length;
